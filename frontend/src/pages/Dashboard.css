@@ -70,3 +70,41 @@
     overflow-y: auto;
   }
   
+  @media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .sidebar-title {
+    display: none; /* Hide the large title to save space */
+  }
+
+  .sidebar-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .logout-btn {
+    margin-top: 0;
+    background-color: #ff4d4f;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.8rem;
+    white-space: nowrap;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}

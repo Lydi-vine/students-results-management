@@ -32,6 +32,7 @@
     font-size: 1rem;
     text-align: left;
     transition: background 0.3s;
+    text-decoration: none;
   }
   
   .sidebar-btn:hover {
@@ -42,7 +43,6 @@
     background-color: #4f4fa3;
     font-weight: bold;
   }
-  
   
   .logout-btn {
     margin-top: auto;
